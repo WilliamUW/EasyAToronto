@@ -1,10 +1,14 @@
+import { AnimatePresence, motion } from "framer-motion";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { useEffect, useMemo, useState } from "react";
 
 import { API_BASE_URL } from '../config';
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
+import { TransferAPT } from "@/components/TransferAPT";
 import { cn } from "@/lib/utils";
 import { companyDescriptions } from "@/lib/companyDescriptions";
 import { getAllInterviewQuestions } from "@/view-functions/getAllInterviewQuestions";
@@ -26,6 +30,8 @@ interface QAPair {
 }
 
 const FREE_TIER_LIMIT = 50;
+const PREMIUM_RECIPIENT = "0x1";
+const PREMIUM_AMOUNT = 0.01;
 
 export default function Preparation() {
   const [personalInfo, setPersonalInfo] = useState("");
@@ -39,7 +45,8 @@ export default function Preparation() {
   const [customQuestion, setCustomQuestion] = useState("");
   const [isGeneratingCustom, setIsGeneratingCustom] = useState(false);
   const [isPremium, setIsPremium] = useState(false);
-  const { account, signAndSubmitTransaction } = useWallet();
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
+  const { account } = useWallet();
 
   // Get unique companies from questions
   const companies = useMemo(() => {
@@ -272,21 +279,14 @@ export default function Preparation() {
     }
   };
 
-  const handleUpgradeToPremium = async () => {
-    if (!account) {
-      toast.error("Please connect your wallet first");
-      return;
-    }
+  const handleUpgradeToPremium = () => {
+    setShowUpgradeModal(true);
+  };
 
-    try {
-      // For now, we'll just simulate the upgrade
-      // TODO: Implement actual APT transfer once we have the correct transaction format
-      setIsPremium(true);
-      toast.success("Successfully upgraded to Premium!");
-    } catch (error) {
-      console.error("Error upgrading to premium:", error);
-      toast.error("Failed to upgrade to Premium");
-    }
+  const handleUpgradeSuccess = () => {
+    setIsPremium(true);
+    setShowUpgradeModal(false);
+    toast.success("Welcome to Behavioral Buddy Premium! 🎉");
   };
 
   const canGenerateMore = isPremium || !generatedAnswer || generatedAnswer.questions.length < FREE_TIER_LIMIT;
@@ -298,7 +298,7 @@ export default function Preparation() {
           <h1 className="text-2xl font-bold">Interview Preparation</h1>
           <div className="flex items-center gap-2">
             <span className="text-sm text-gray-500">
-              {generatedAnswer?.questions.length || 0}/{FREE_TIER_LIMIT} Questions
+              {generatedAnswer?.questions.length || 0}{isPremium ? "/∞" : `/${FREE_TIER_LIMIT}`} Questions
             </span>
             {!isPremium && (
               <div className="h-2 w-32 bg-gray-200 rounded-full overflow-hidden">
@@ -311,23 +311,68 @@ export default function Preparation() {
           </div>
         </div>
 
-        {!isPremium && (
-          <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4 rounded-lg">
-            <div className="flex items-center justify-between">
-              <div>
-                <h3 className="font-semibold text-lg">Get Behavioral Buddy Premium</h3>
-                <p className="text-sm opacity-90">Unlock unlimited question generations</p>
+        <AnimatePresence>
+          {!isPremium ? (
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4 rounded-lg"
+            >
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="font-semibold text-lg">Get Behavioral Buddy Premium</h3>
+                  <p className="text-sm opacity-90">Unlock unlimited question generations</p>
+                </div>
+                <Button
+                  onClick={handleUpgradeToPremium}
+                  className="bg-white text-blue-600 hover:bg-gray-100"
+                >
+                  Upgrade for 0.01 APT
+                </Button>
               </div>
-              <Button
-                onClick={handleUpgradeToPremium}
-                className="bg-white text-blue-600 hover:bg-gray-100"
-              >
-                Upgrade for 0.01 APT
-              </Button>
-            </div>
-          </div>
-        )}
+            </motion.div>
+          ) : (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="bg-gradient-to-r from-green-500 to-emerald-500 text-white p-4 rounded-lg"
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Sparkles className="h-5 w-5" />
+                  <div>
+                    <h3 className="font-semibold text-lg">Premium Member</h3>
+                    <p className="text-sm opacity-90">Thank you for supporting Behavioral Buddy!</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-sm font-medium">Unlimited Access</span>
+                  <Sparkles className="h-5 w-5" />
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
+
+      {showUpgradeModal && (
+        <Dialog open={showUpgradeModal} onOpenChange={setShowUpgradeModal}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Upgrade to Premium</DialogTitle>
+              <DialogDescription>
+                Transfer 0.01 APT to unlock unlimited questions and premium features.
+              </DialogDescription>
+            </DialogHeader>
+            <TransferAPT 
+              recipient={PREMIUM_RECIPIENT}
+              amount={PREMIUM_AMOUNT}
+              onSuccess={handleUpgradeSuccess}
+            />
+          </DialogContent>
+        </Dialog>
+      )}
 
       <div className="space-y-6">
         <div className="space-y-2">
@@ -492,7 +537,7 @@ export default function Preparation() {
           </div>
         </div>
 
-        {!canGenerateMore && (
+        {!canGenerateMore && !isPremium && (
           <div className="text-center p-4 bg-gray-50 rounded-lg">
             <p className="text-gray-600 mb-2">You've reached the free tier limit of {FREE_TIER_LIMIT} questions</p>
             <Button
