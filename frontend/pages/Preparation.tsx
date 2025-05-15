@@ -32,6 +32,8 @@ export default function Preparation() {
   const [isOpen, setIsOpen] = useState(true);
   const [interviewQuestions, setInterviewQuestions] = useState<InterviewData[]>([]);
   const [feedbackOpen, setFeedbackOpen] = useState<{ [key: number]: boolean }>({});
+  const [customQuestion, setCustomQuestion] = useState("");
+  const [isGeneratingCustom, setIsGeneratingCustom] = useState(false);
 
   // Get unique companies from questions
   const companies = useMemo(() => {
@@ -197,6 +199,73 @@ export default function Preparation() {
     setGeneratedAnswer(newGeneratedAnswer);
   };
 
+  const handleGenerateCustomAnswer = async () => {
+    if (!customQuestion.trim() || !selectedCompany) return;
+    
+    setIsGeneratingCustom(true);
+    try {
+      const prompt = `Personal Info: ${personalInfo}\nCompany Info: ${companyInfo}\nCompany: ${selectedCompany}\nQuestion: ${customQuestion}\nGenerate an answer for this question. Return ONLY a raw JSON object in the following format, without any markdown formatting or code blocks:
+{
+  "questions": [
+    {
+      "question": "${customQuestion}",
+      "answer": "Answer text here"
+    }
+  ]
+}`;
+
+      const response = await fetch(`${API_BASE_URL}/api/generate-answer`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      
+      if (!data.answer) {
+        throw new Error('No answer received from API');
+      }
+
+      const cleanAnswer = data.answer
+        .replace(/^```json\n?/, '')
+        .replace(/```.*$/, '')
+        .trim();
+      
+      const firstBrace = cleanAnswer.indexOf('{');
+      const lastBrace = cleanAnswer.lastIndexOf('}');
+      if (firstBrace === -1 || lastBrace === -1) {
+        throw new Error('Invalid JSON response format');
+      }
+      const jsonString = cleanAnswer.slice(firstBrace, lastBrace + 1);
+      
+      const parsedAnswer = JSON.parse(jsonString);
+      if (!parsedAnswer.questions?.[0]?.answer) {
+        throw new Error('Invalid answer format in response');
+      }
+
+      const newQAPair = parsedAnswer.questions[0];
+      
+      setGeneratedAnswer(prev => {
+        if (!prev) {
+          return { questions: [newQAPair] };
+        }
+        return {
+          questions: [...prev.questions, newQAPair]
+        };
+      });
+
+      setCustomQuestion("");
+    } catch (error) {
+      console.error('Error generating custom answer:', error);
+    } finally {
+      setIsGeneratingCustom(false);
+    }
+  };
+
   return (
     <div className="container max-w-screen-lg mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold mb-6">Interview Preparation</h1>
@@ -334,6 +403,30 @@ export default function Preparation() {
             ))}
           </div>
         )}
+
+        <div className="mt-8 p-4 border rounded-lg bg-gray-50">
+          <h2 className="font-semibold mb-4">Ask a Custom Question</h2>
+          <div className="space-y-4">
+            <Textarea
+              placeholder="Enter your custom interview question..."
+              value={customQuestion}
+              onChange={(e) => setCustomQuestion(e.target.value)}
+              className="min-h-[100px]"
+            />
+            <Button
+              onClick={handleGenerateCustomAnswer}
+              disabled={isGeneratingCustom || !customQuestion.trim() || !selectedCompany}
+              className="w-full"
+            >
+              {isGeneratingCustom ? "Generating Answer..." : "Generate Answer"}
+            </Button>
+            {!selectedCompany && (
+              <p className="text-sm text-red-500">
+                Please select a company first
+              </p>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );
