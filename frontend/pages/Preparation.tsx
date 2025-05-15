@@ -13,7 +13,6 @@ import { cn } from "@/lib/utils";
 import { companyDescriptions } from "@/lib/companyDescriptions";
 import { getAllInterviewQuestions } from "@/view-functions/getAllInterviewQuestions";
 import { toast } from "sonner";
-import { useWallet } from "@aptos-labs/wallet-adapter-react";
 
 interface InterviewData {
   user_address: string;
