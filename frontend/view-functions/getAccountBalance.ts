@@ -25,9 +25,9 @@ export const getAccountBBTBalance = async (args: AccountBBTBalanceArguments): Pr
   const { accountAddress } = args;
   const balance = await aptosClient().view<[number]>({
     payload: {
-      function: `${MODULE_ADDRESS}::behavioral_buddy::get_balance`,
+      function: `${MODULE_ADDRESS}::message_board::get_bbt_balance`,
       functionArguments: [accountAddress],
     },
   });
-  return balance[0];
+  return balance[0] / Math.pow(10, 8); // Convert from raw amount to BBT (8 decimals)
 };
