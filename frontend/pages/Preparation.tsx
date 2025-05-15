@@ -46,7 +46,6 @@ export default function Preparation() {
   const [isGeneratingCustom, setIsGeneratingCustom] = useState(false);
   const [isPremium, setIsPremium] = useState(false);
   const [showUpgradeModal, setShowUpgradeModal] = useState(false);
-  const { account } = useWallet();
 
   // Get unique companies from questions
   const companies = useMemo(() => {
