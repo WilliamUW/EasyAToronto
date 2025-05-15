@@ -1,10 +1,10 @@
-import { FileText, Home, Info } from "lucide-react";
+import { FileText, Gift, Home, Info } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
 interface BottomNavProps {
-  currentPage: "home" | "preparation" | "info";
-  onPageChange: (page: "home" | "preparation" | "info") => void;
+  currentPage: "home" | "preparation" | "rewards" | "info";
+  onPageChange: (page: "home" | "preparation" | "rewards" | "info") => void;
 }
 
 export function BottomNav({ currentPage, onPageChange }: BottomNavProps) {
@@ -35,6 +35,18 @@ export function BottomNav({ currentPage, onPageChange }: BottomNavProps) {
           >
             <FileText className="h-6 w-6" />
             <span className="text-xs mt-1">Preparation</span>
+          </button>
+          <button
+            onClick={() => onPageChange("rewards")}
+            className={cn(
+              "flex flex-col items-center justify-center w-full h-full transition-colors",
+              currentPage === "rewards"
+                ? "text-primary"
+                : "text-muted-foreground hover:text-primary"
+            )}
+          >
+            <Gift className="h-6 w-6" />
+            <span className="text-xs mt-1">Rewards</span>
           </button>
           <button
             onClick={() => onPageChange("info")}
