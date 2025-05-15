@@ -1,0 +1,854 @@
+Resume:
+
+
+William Wang
+linkedin.com/in/heywilliamwang   |   github.com/williamuw  |   bwilliamwang@gmail.com   |   +1-416-880-7375
+
+
+AWARDS & DISTINCTIONS (71x Hackathon Winner | $180,000 CAD in Prizes)
+Winner - ETHDenver 2025 ($30,000 Prize, 95,000+ attendees, featured in article by UWaterloo)	 Mar 2025
+Winner - ETHDenver 2024 ($17,500 Prize, 38,000+ attendees, featured in article by UWaterloo)	 Mar 2024
+2nd Stacks Track, 4th Stellar Track - Consensus 2024 ($18,000 Prize, 15K attendees) 	  	  Jun 2024
+3 x 1st Place Prizes + 4 x Sponsor Prizes - ETHWaterloo ($10,000 Prize, 650+ hackers) 	   	   Jun 2023
+2nd Place Overall - Microsoft GenAI Hackathon ($6,800 Prize, 1200+ hackers) 			  May 2023
+1st Place Overall - ETHBoston ($5,500 Prize, 1st/72 Harvard & MIT participants) 	  		   Apr 2023 
+3rd Place, Global Finalist - NASA Space Apps Toronto (Top 40 teams out of 55,000+ participants)	    Oct 2023
+
+EDUCATION	
+University of Waterloo - Bachelor of Computer Science, Honours Co-op (cGPA:  3.94/4.0) 	       Sep 2020 – Apr 2025
+EXPERIENCE
+Software Engineer – Bloomberg							        	          Aug 2024 - Present
+Collaborated with a team of 21 engineers, designers, and legal stakeholders to spearhead development of an AI copilot for legal contract revision workflow across 5M+ contracts and 100M+ datapoints at Bloomberg.
+Deployed two organizational-wide C# .NET endpoint to compare 1,000+ legal documents, streamlining contract   negotiation by highlighting differences between revisions to save 500+ hours of manual review for legal teams.
+Software Engineer – Passes						         	        		       Jun 2024 – Aug 2024
+Led the integration of the Slack API with our Node.js backend to process 2,000+ creator applications and minimum guarantee payouts using interactive Slack messages, saving the operations team 3000+ minutes.
+Collaborated with a team of 17 developers and designers to develop, test, and publish 30+ new features and improvements to serve 500,000+ users across Passes’ web, React Native, and internal platforms.
+Data Operations, Venture – Portage Ventures 						       Sep 2023 – May 2024
+Conducted portfolio & fund analysis at Canada's largest FinTech VC with $3B in assets under management.
+Established a robust data visualization pipeline for 390 KPIs and 72,000 data points across 72 time periods and 65 investments using FactSet Cobalt and Thinkcell, saving 200+ hours per quarterly evaluation cycle.
+Revamped data ingestion processes through Excel push templates, reducing manual entry time by over 30+ minutes for 81 portfolio companies and saving 60+ hours per quarter, improving data accuracy and scalability.
+Data Operations, Venture – BDC (Business Development Bank of Canada) 	       		        Jan 2023 – Aug 2023
+Maintained an Affinity CRM of 5500+ early-stage venture profile companies at Canada’s largest VC firm.
+Developed Excel loaders to automate exposure analysis by industries and regions across the asset, fund, and legal entity-level data sets to reduce time spent per exposure request by 90% (30 minutes saved per request).
+Reviewed 220+ financial statements to gather metrics from 70+ Canadian funds for BDC’s 2023 Annual Report.
+Automated ingestion of 500+ contacts and companies into BDC’s CRM to save 2,000+ minutes of manual entry.
+Software Engineer – Super.com							                      May 2022 – Aug 2022
+Engineered API endpoints across the Travel & Fin-Tech verticals at Canada's fastest growing tech company.
+Spearheaded Snaptravel’s API migration from Priceline version 3 to 4 to enhance rate availability for 41MM+ search requests daily, increasing Priceline bookings by 45% to increase monthly revenue by $116,000.
+Migrated 10+ endpoints from SQLAlchemy to Pydantic to adopt data validation, reduce database contamination, while improving scalability, developer productivity by 10%, and stability to maintain an uptime of 99.9%.
+Software Engineer – Somm.ai							        	                      Dec 2021 – Apr 2022
+Reduced search runtime by 300% for 13,000+ documents hosted on Somm.ai’s ElasticSearch deployment.
+Automated data scraping of 80,000+ restaurants using Yelp API and ingestion of 6,700+ documents into AWS.
+Software Engineer – TOOLBX								         	        Sep 2021 – Dec 2021
+Centralized metrics processing for 174,000+ production products using Algolia & Salesforce API with SQL & JS.
+Reduced the runtime of 10+ PostgreSQL queries by 65% for the filtering of 40,000+ unique construction items.
+
+SUMMARY OF QUALIFICATIONS
+Programming Languages:     Python, Typescript, Javascript, C, C#, C++, Java, Kotlin, Rust, R, Racket, Turing, Bash, Solidity
+Tools & Technologies: React.js & Native, Next.js, Node.js, Shadcn, Vercel, Express, Flask, ngrok, MongoDB, Unity, Firebase
+
+
+Interests: Musicals, Karaoke, PC Building, Travelling, VR, Strategy Games (Top 1700 out of 100M players in Hearthstone)
+
+
+Linkedin:
+0 notifications total
+
+Skip to search
+
+Skip to main content
+
+Keyboard shortcuts
+Close jump menu
+Search
+new feed updates notifications
+Home
+My Network
+Jobs
+Messaging
+1
+1 new notification
+Notifications
+William Wang
+Me
+
+For Business
+Learning
+William Wang
+William Wang
+(He/Him)
+Incoming @ Meta | Prev @ Bloomberg, Cohere, Passes | 71x Hackathon Wins ($180K in Prizes) l UW CS
+
+Resources
+
+Add profile section
+Open to
+Background Image
+
+William Wang
+
+William Wang  
+ He/Him
+Incoming @ Meta | Prev @ Bloomberg, Cohere, Passes | 71x Hackathon Wins ($180K in Prizes) l UW CS
+
+Meta
+
+University of Waterloo
+New York, New York, United States  Contact info
+500+ connections
+Open to
+
+Add profile section
+
+Enhance profile
+
+Resources
+AnalyticsAnalytics
+ Private to you Private to you
+
+7,545 profile views
+7,545 profile views
+Discover who's viewed your profile.Discover who's viewed your profile.
+4,206 post impressions
+4,206 post impressions
+Check out who's engaging with your posts.Check out who's engaging with your posts.
+Past 7 daysPast 7 days
+1,670 search appearances
+1,670 search appearances
+See how often you appear in search results.See how often you appear in search results.
+Show all analytics
+AboutAbout
+Nice to meet you, my name is William! 😄 TLDR:
+- 70x hackathon winner ($180K+ in prizes)
+- 7x SWE intern (Pre-seed, Seed, Series A, B, C, D, 4000+ employee bank)
+- 3x VC Intern (Canada's largest VC and largest FinTech VC)
+
+I am a:
+🛠 Builder - 50+ hackathon winner across AI, VR, and blockchain. SWE at Seed, Series A, B & C startups. Data at 4000+ employee bank. Received interview for YC and YC China's S23 batch. I learn fast and love solving problems!
+📊 Critical Thinker - Strategy & Operations at Canada's largest VC and Canada's largest FinTech VC. Performed strategic analysis to achieve operational and strategic objectives across 22 funds, 2500+ investments, and $10B assets under management.
+🤝 Connector - Ambassador for Consensys (Metamask), Solana, and Ripple; ran logistics for NFT art galleries at Korea Blockchain Week, Permissionless II, and Art Basel Miami (54K combined attendees) - I bring together the right people, ideas, and resources to foster collaboration and innovation.
+
+☀ Optimist - Passionate about bringing the marginal cost of experiences to 0 and the future closer to the present everyday.
+
+🎮 Fun Fact: I achieved the top rank of "Legend" in Hearthstone (Top 1700 out of 100 million total players) back in Grade 10!
+
+🎉 Interests: Musicals & Karaoke, PC Building, Strategy Games
+
+Awards & Distinctions (in $CAD):
+🥇 Winner - ETHDenver ($17,500 Prize, 38K attendees) - Mar 2024
+🏆 2nd Stacks Track, 4th Stellar Track - Consensus 2024 ($18,000 Prize, 15K attendees) - Jun 2024
+🏆 3 First Prizes, 4 Sponsor Prizes - ETHWaterloo ($10,000 Prize, 650+ hackers) - Jun 2023
+🥇 1st Place Overall - OlympiHacks ($5,000 Prize, 200+ hackers) - May 2023
+🥇 1st Place Overall - ETHBoston ($5,000 Prize) - Apr 2023
+🏆 Runner-up - Chainlink Spring 23 Hackathon ($5,000 Prize, 2.4K hackers) - Jun 2023
+🥇 1st Place Solana Track - LionHack 2023 ($4,000 Prize) - Apr 2023
+🏆 9 Sponsor Prizes - ETHGlobal NYC ($4,000 Prize, 1K hackers) - Sep 2023
+🏆 3rd Place, Global Finalist - NASA Space Apps Toronto (55,000+ participants) - Oct 2023
+
+Unlisted: Google x MHacks, ETHGlobal Frameworks, IvyHacks.ai, ETHGlobal London, McGill AGC, Starknet HH’24, Smith FinTech4Good Hackathon, ETHGlobal Circuit Breaker, DeerHacks ‘23, QHacks '23, GenAI Hackathon, Entrepreneur First, Equitable Elevation I, Hack the Valley, Blockhacks, UofT Hack The MIST, MetHacks, DeerHacks, MLH MapHacks 2, MLH x GitHub All-In Hackathon, UofT EWB Hackathon, Treasure Hacks 3.5, GryphHacks 2023, AI HackFest, MLH x NEAR Hackathon, Grapevine Labs Hackathon, Grapevine Fall Summit HackathonNice to meet you, my name is William! 😄 TLDR: - 70x hackathon winner ($180K+ in prizes) - 7x SWE intern (Pre-seed, Seed, Series A, B, C, D, 4000+ employee bank) - 3x VC Intern (Canada's largest VC and largest FinTech VC) I am a: 🛠 Builder - 50+ hackathon winner across AI, VR, and blockchain. SWE at Seed, Series A, B & C startups. Data at 4000+ employee bank. Received interview for YC and YC China's S23 batch. I learn fast and love solving problems! 📊 Critical Thinker - Strategy & Operations at Canada's largest VC and Canada's largest FinTech VC. Performed strategic analysis to achieve operational and strategic objectives across 22 funds, 2500+ investments, and $10B assets under management. 🤝 Connector - Ambassador for Consensys (Metamask), Solana, and Ripple; ran logistics for NFT art galleries at Korea Blockchain Week, Permissionless II, and Art Basel Miami (54K combined attendees) - I bring together the right people, ideas, and resources to foster collaboration and innovation. ☀ Optimist - Passionate about bringing the marginal cost of experiences to 0 and the future closer to the present everyday. 🎮 Fun Fact: I achieved the top rank of "Legend" in Hearthstone (Top 1700 out of 100 million total players) back in Grade 10! 🎉 Interests: Musicals & Karaoke, PC Building, Strategy Games Awards & Distinctions (in $CAD): 🥇 Winner - ETHDenver ($17,500 Prize, 38K attendees) - Mar 2024 🏆 2nd Stacks Track, 4th Stellar Track - Consensus 2024 ($18,000 Prize, 15K attendees) - Jun 2024 🏆 3 First Prizes, 4 Sponsor Prizes - ETHWaterloo ($10,000 Prize, 650+ hackers) - Jun 2023 🥇 1st Place Overall - OlympiHacks ($5,000 Prize, 200+ hackers) - May 2023 🥇 1st Place Overall - ETHBoston ($5,000 Prize) - Apr 2023 🏆 Runner-up - Chainlink Spring 23 Hackathon ($5,000 Prize, 2.4K hackers) - Jun 2023 🥇 1st Place Solana Track - LionHack 2023 ($4,000 Prize) - Apr 2023 🏆 9 Sponsor Prizes - ETHGlobal NYC ($4,000 Prize, 1K hackers) - Sep 2023 🏆 3rd Place, Global Finalist - NASA Space Apps Toronto (55,000+ participants) - Oct 2023 Unlisted: Google x MHacks, ETHGlobal Frameworks, IvyHacks.ai, ETHGlobal London, McGill AGC, Starknet HH’24, Smith FinTech4Good Hackathon, ETHGlobal Circuit Breaker, DeerHacks ‘23, QHacks '23, GenAI Hackathon, Entrepreneur First, Equitable Elevation I, Hack the Valley, Blockhacks, UofT Hack The MIST, MetHacks, DeerHacks, MLH MapHacks 2, MLH x GitHub All-In Hackathon, UofT EWB Hackathon, Treasure Hacks 3.5, GryphHacks 2023, AI HackFest, MLH x NEAR Hackathon, Grapevine Labs Hackathon, Grapevine Fall Summit Hackathon
+FeaturedFeatured
+
+Post
+Post
+Excited to share that I’ll be joining Meta as a New Grad Software Engineer at their Menlo Park HQ!! 🥳
+
+A huge thank you to everyone who has mentored and supported me throughout my university and co-op journey—I’m incredibly grateful for all the guidance and encouragement along the way.
+
+If you’ll be in the Bay Area this summer, let me know—would love to connect!! 🙌
+
+hashtag#Meta hashtag#SoftwareEngineering hashtag#NewGrad
+
+likecelebratelove
+918
+216 comments
+Post
+Post
+🥳 TLDR: Received a 30K grant from Vechain and BCG, won 6K solo across two ETHGlobal hackathons 🏆, saw Moo Deng 🦛, and that I'm seeking 2025 New Grad opportunities!! 👏
+
+This week, I received a $30,000 USD Lighthouse Grant from VeChain and Boston Consulting Group (BCG) which supports the development of sustainability-focused consumers apps on VeChain!!! 🥳🎉
+
+This grant was awarded for Revive—an app I built for the EasyA x VeChain Bay Area Hackathon that won 3rd place and $2,000 USD this past summer! 🥉🙌
+
+I am also elated to share that I won $3,000 USD solo from ETHGlobal SF🌉 last month and was awarded $2,500 USD from ETHGlobal Bangkok🛕 last week, marking my 62nd hackathon win! 🏆
+
+🦛 Seeing Moo Deng in person and living in Bangkok for a week was truly an unforgettable experience. Massive thanks to Waterloo Blockchain for sponsoring our flights ✈️ and accommodations 🏨 in Bangkok!! 
+
+💼 Lastly, I am also seeking New Grad opportunities for 2025 and would love to bring my skills and passion to your team!
+
+🚀 With experience like...
+Internships at: Bloomberg, Cohere, Passes, Super.com, BDC 👨‍💻
+Fellowships at: MLH Fellowship, Consensys, Ripple, Solana Labs, NEAR Protocol 🏫
+Achivements: 62 hackathon wins and $130,000+ won across AI, VR, and Blockchain 🥇
+
+🔍 If your team is looking for someone who is relentlessly curious, results-driven, and a techno-optimist, feel free to connect or reach out! I’m excited to contribute to your team’s vision and make an impact together. 🤝
+No alternative text description for this image
+likecelebratelove
+405
+66 comments
+Post
+Post
+👏 I LOVE Bloomberg!! 👏
+
+In just my first two weeks:
+1. 🏀 I got to see Stephen Curry visit and speak at our NYC HQ office. 🙌
+2. 🏙️ All the interns were placed in the iconic New Yorker Hotel with breathtaking views of the World Trade Center, The Edge, and the Empire State Building all from our common room!
+3. 🎟️ Discovered we have FREE access to 60+ museums and 20+ concerts & events in NYC—cultural paradise unlocked! 🖼️
+4. 🥜 Enjoyed peanut butter on tap while overlooking Central Park at our 731 Lexington office! 😋
+5. 👋 Met some of the friendliest and most interesting interns and full-timers ever!
+
+I can’t wait to spend the next 4 months learning, growing, and making the most of NYC at this incredible company! 🌇💼
+
+P.S. Friends in NYC, hit me up if you want a tour of the Bloomberg office! 🏢💬
+No alternative text description for this image
+likelovecelebrate
+403
+31 comments
+Post
+Post
+🚀 $34,700 CAD in winnings 
+🏆 14 hackathon wins 
+🌍 9 cities, 3 countries, 2 continents in 3 months.
+
+I went from not knowing game development 🎮 to building hackathon-winning Meta Quest 3 VR experiences using Unity and C# solo in under 8 hours, including most recently winning 2nd Place and $6,800 CAD at Microsoft’s GenAI Hackathon out of 1200+ participants!
+
+I went from being intimidated by Solidity to deploying 50+ Rust, Cairo, and EVM smart contracts across 8 blockchain hackathons, including winning $8,800 CAD at the world's largest blockchain hackathon at ETHDenver ‘24 🌐—and even making headlines in a University of Waterloo article about my journey (which still feels surreal)! 
+
+✈ My travels took me to London, UK for the first time, and to cities like Denver, Miami, Austin, NYC & more—a total of 9 cities across 5 timezones!
+
+I owe so much to hackathons, which is why I am thrilled to announce the launch of Hackathons Canada 🍁 where you can discover upcoming hackathons, form powerhouse teams, and coordinate travel & stay with 1,100+ hackers across Canada!
+
+In a world full of uncertainty, there’s no better feeling than knowing you can transform any idea into reality within a weekend. 🌟
+
+I can’t wait to continue building—Thank you to all the amazing people I had the pleasure of meeting and learning from! 🙌
+No alternative text description for this image
+likecelebratelove
+395
+55 comments
+Post
+Post
+🏆 Absolutely thrilled to have won a combined $17,500 CAD with Xavier D'Mello at ETHDenver, the largest and longest-running Ethereum event in the world! 🎉🥳
+
+🌎 Out of 21,000+ attendees from 120 countries this year, we are overjoyed to have won both 1st in main track judging as well as 1st in community voting with 978 votes! 🏆
+
+🥇 This win means a lot to me since ETHDenver last year was my first Web3 hackathon, so coming back to where it all began and representing the University of Waterloo on the world stage was the best outcome I could have hoped for. 🙏
+
+🙌 Thank you to:
+- Waterloo Blockchain for flying me to ETHDenver in 2023 and introducing me to the world of blockchain.
+- Benjamin Liang and Andrew Liang for your mentorship on Computer Vision/ML & Smart Contract integrations.
+- Ivan Koparan, Adnan Mkamel, and Frederik Schulz for approving and accommodating my trip!
+- Mayuri Punithan for interviewing me and writing this amazing article!
+
+And thank you to all the amazing people I had the pleasure of meeting in Denver! 😄
+"A push-up to $6.5K USD": William Wang wins big at ETHDenver’s 2024 Hackathon | Cheriton School of Computer Science
+uwaterloo.ca
+likecelebratelove
+219
+51 comments
+
+ActivityActivity
+7,021 followers7,021 followers
+
+Create a post
+
+Posts
+
+Comments
+
+Videos
+
+Images
+Loaded 9 Posts posts
+View William Wang’s  graphic link
+William WangWilliam Wang
+ • YouYou
+Incoming @ Meta | Prev @ Bloomberg, Cohere, Passes | 71x Hackathon Wins ($180K in Prizes) l UW CSIncoming @ Meta | Prev @ Bloomberg, Cohere, Passes | 71x Hackathon Wins ($180K in Prizes) l UW CS
+1w •  1 week ago • Visible to anyone on or off LinkedIn
+
+Just wrapped an incredible weekend at the Snap Inc. AR Hackathon in NYC!
+
+Aya Talant and I got to hack on Snap Spectacles for the first time and built a multiplayer AR version of My Singing Monsters! 🎤
+
+Grateful for the chance to explore Snap’s NYC office and for the travel sponsorship from Boardy! 🙌
+
+hashtag#teamboardy
+…more
+
+
+likelovecelebrate
+96
+9 comments
+
+
+
+
+View William Wang’s  graphic link
+William WangWilliam Wang
+ • YouYou
+Incoming @ Meta | Prev @ Bloomberg, Cohere, Passes | 71x Hackathon Wins ($180K in Prizes) l UW CSIncoming @ Meta | Prev @ Bloomberg, Cohere, Passes | 71x Hackathon Wins ($180K in Prizes) l UW CS
+1w •  1 week ago • Visible to anyone on or off LinkedIn
+
+Thank you to Boardy for sponsoring me to go to the Snap Inc. AR Hackathon in NYC!!
+
+Super excited to visit Snap’s NYC Office to learn, meet hackers, and build the future of AR on their Spectacles glasses! 
+
+If you’re around, come say hi!
+
+hashtag#teamboardy
+…more
+Activate to view larger image,
+No alternative text description for this image
+Activate to view larger image,
+likecelebratelove
+164
+5 comments
+1 repost
+
+
+
+
+
+Show all posts
+ExperienceExperience
+
+Meta logo
+Software Engineer
+Software Engineer
+Meta · Full-timeMeta · Full-time
+Mar 2025 - Present · 3 mosMar 2025 to Present · 3 mos
+Menlo Park, California, United States · HybridMenlo Park, California, United States · Hybrid
+📽️ Incoming New Grad July 2025 - AI Reels Recommendation Team📽️ Incoming New Grad July 2025 - AI Reels Recommendation Team
+Bloomberg logo
+Software Engineer Intern
+Software Engineer Intern
+Bloomberg · InternshipBloomberg · Internship
+Aug 2024 - Dec 2024 · 5 mosAug 2024 to Dec 2024 · 5 mos
+New York City Metropolitan Area · HybridNew York City Metropolitan Area · Hybrid
+🧠 Contracts Intelligence Team
+🙌 Received Highest Performance Rating of "Outstanding"
+🥳 Received New Grad Return Offer🧠 Contracts Intelligence Team 🙌 Received Highest Performance Rating of "Outstanding" 🥳 Received New Grad Return Offer
+Cohere logo
+Senior Data Quality Specialist
+Senior Data Quality Specialist
+CohereCohere
+Jun 2024 - Nov 2024 · 6 mosJun 2024 to Nov 2024 · 6 mos
+Toronto, Ontario, Canada · RemoteToronto, Ontario, Canada · Remote
+💾 Data Annotation💾 Data Annotation
+
+Nvidia and Salesforce double down on AI startup Cohere in $450 million round at a $5 billion valuation.Nvidia and Salesforce double down on AI startup Cohere in $450 million round at a $5 billion valuation.
+Canadian AI startup Cohere has raised $450 million in funding at a $5 billion valuation from investors such as Nvidia, Salesforce Ventures, Cisco and Canadian pension fund PSP Investments. The funding marks a jump in valuation from Cohere's last private raise, when it was valued at $2.2 billion from investors including Inovia Capital last June.Canadian AI startup Cohere has raised $450 million in funding at a $5 billion valuation from investors such as Nvidia, Salesforce Ventures, Cisco and Canadian pension fund PSP Investments. The funding marks a jump in valuation from Cohere's last private raise, when it was valued at $2.2 billion from investors including Inovia Capital last June.
+Microsoft logo
+Guest Developer
+Guest Developer
+MicrosoftMicrosoft
+Apr 2024 - Oct 2024 · 7 mosApr 2024 to Oct 2024 · 7 mos
+🏆Invited twice as a paid guest developer to showcase my project to the Microsoft Azure AI team, where I demonstrated the integration of Azure AI models into VR applications. Awarded 2nd place (out of 1200+ participants) at the Microsoft Generative AI Hackathon for developing an advanced multimodal application using Azure AI and Meta Mixed Reality solo. This recognition came with $4,000 USD in prizes, $1,000 in Azure credits, and a feature in a Microsoft blog post. I also had the opportunity to collaborate with the Microsoft team, providing insights on developer experiences, identifying pain points, and offering feedback to help refine Azure AI for future developers!🏆Invited twice as a paid guest developer to showcase my project to the Microsoft Azure AI team, where I demonstrated the integration of Azure AI models into VR applications. Awarded 2nd place (out of 1200+ participants) at the Microsoft Generative AI Hackathon for developing an advanced multimodal application using Azure AI and Meta Mixed Reality solo. This recognition came with $4,000 USD in prizes, $1,000 in Azure credits, and a feature in a Microsoft blog post. I also had the opportunity to collaborate with the Microsoft team, providing insights on developer experiences, identifying pain points, and offering feedback to help refine Azure AI for future developers!
+
+Multimodel, Multimodal, and Multiagent innovation with Azure AIMultimodel, Multimodal, and Multiagent innovation with Azure AI
+Join us at Microsoft Build for a showcase on Azure OpenAI Service's breakthroughs and evolution of Azure AI. Explore GPT-4, multi-modality, and demos integrating sight and language with Dall-E and Whisper. Learn about developer tools, AI assistants, scalable applications, and customization. Focus on responsible AI, data privacy, and security with Azure. Featuring interactive demos and stories from companies like Unity Technologies, this session is perfect for developers and innovators.Join us at Microsoft Build for a showcase on Azure OpenAI Service's breakthroughs and evolution of Azure AI. Explore GPT-4, multi-modality, and demos integrating sight and language with Dall-E and Whisper. Learn about developer tools, AI assistants, scalable applications, and customization. Focus on responsible AI, data privacy, and security with Azure. Featuring interactive demos and stories from companies like Unity Technologies, this session is perfect for developers and innovators.
+Passes logo
+Software Engineer Intern
+Software Engineer Intern
+PassesPasses
+Jun 2024 - Aug 2024 · 3 mosJun 2024 to Aug 2024 · 3 mos
+🛠️ Internal Tools for the Operations Team (Creator Earnings and Management)🛠️ Internal Tools for the Operations Team (Creator Earnings and Management)
+
+Lucy Guo follows up her unicorn Scale AI with a $40 million Series A for new creator economy venture, PassesLucy Guo follows up her unicorn Scale AI with a $40 million Series A for new creator economy venture, Passes
+Lucy Guo is already a self-made millionaire who can put the cofounding of a bona fide unicorn, the $7 billion–valued Scale AI, on her resume. Now the 29-year-old entrepreneur has talked exclusively to Fortune about a $40 million Series A funding for her latest initiative, a creator monetization platform called Passes.Lucy Guo is already a self-made millionaire who can put the cofounding of a bona fide unicorn, the $7 billion–valued Scale AI, on her resume. Now the 29-year-old entrepreneur has talked exclusively to Fortune about a $40 million Series A funding for her latest initiative, a creator monetization platform called Passes.
+Show all 16 experiences
+EducationEducation
+University of Waterloo logo
+University of Waterloo
+University of Waterloo
+Bachelor of Computer Science - BCS, Honours Computer Science, Co-opBachelor of Computer Science - BCS, Honours Computer Science, Co-op
+Sep 2020 - Apr 2025Sep 2020 - Apr 2025
+Cumulative GPA: 3.94/4.0
+
+Excellent Standing, Dean's Honour List with Distinction
+
+- University of Waterloo President's Scholarship of Distinction
+- Donald Bornhold Memorial Entrance Scholarship
+- Pearl Sullivan Hack the North Scholarship Finalist
+
+Extra-curriculars: Velocity Climate Change Hackathon, Tech+ Mentorship Program, Zero Experience Problem Lab Workshop, Spotlight Mentorship Program, Grapevine Onboarding Bootcamp
+
+Relevant Courses:
+Operating System (C, C++)
+Algorithms (C++)
+Introduction to Machine Learning (Python)
+Data Structures and Data Management (C, C++)
+Foundations of Sequential Programs (MIPS, C++)
+Application Development (Kotlin)
+Computer Networks (Python)
+User Interfaces (Typescript)
+Tools and Techniques for Software Development (Bash)
+Designing Functional Programs (Racket)
+Elementary Algorithm Design and Data Abstraction (C)
+Object-Oriented Software Development (C++)
+Statistics & Probability (R)Cumulative GPA: 3.94/4.0 Excellent Standing, Dean's Honour List with Distinction - University of Waterloo President's Scholarship of Distinction - Donald Bornhold Memorial Entrance Scholarship - Pearl Sullivan Hack the North Scholarship Finalist Extra-curriculars: Velocity Climate Change Hackathon, Tech+ Mentorship Program, Zero Experience Problem Lab Workshop, Spotlight Mentorship Program, Grapevine Onboarding Bootcamp Relevant Courses: Operating System (C, C++) Algorithms (C++) Introduction to Machine Learning (Python) Data Structures and Data Management (C, C++) Foundations of Sequential Programs (MIPS, C++) Application Development (Kotlin) Computer Networks (Python) User Interfaces (Typescript) Tools and Techniques for Software Development (Bash) Designing Functional Programs (Racket) Elementary Algorithm Design and Data Abstraction (C) Object-Oriented Software Development (C++) Statistics & Probability (R)
+Massachusetts Institute of Technology logo
+Massachusetts Institute of Technology
+Massachusetts Institute of Technology
+StartMIT '24 CohortStartMIT '24 Cohort
+20242024
+StartMIT is a 2 ½ week long, full-time program hosted by MIT during the Independent Activities Period (IAP) every January. The programs covers all aspects of turning innovative ideas into commercially viable businesses. Participants have the opportunity to learn from successful startup founders, explore the Boston/Cambridge startup ecosystem, and access resources and mentorship to kickstart their entrepreneurial journey. It's a playground for aspiring entrepreneurs within the MIT community, fostering innovation and providing a platform for networking and knowledge sharing.StartMIT is a 2 ½ week long, full-time program hosted by MIT during the Independent Activities Period (IAP) every January. The programs covers all aspects of turning innovative ideas into commercially viable businesses. Participants have the opportunity to learn from successful startup founders, explore the Boston/Cambridge startup ecosystem, and access resources and mentorship to kickstart their entrepreneurial journey. It's a playground for aspiring entrepreneurs within the MIT community, fostering innovation and providing a platform for networking and knowledge sharing.
+Show all 4 educations
+Licenses & certificationsLicenses & certifications
+CodeSignal logo
+General Coding Framework Certification (600/600)
+General Coding Framework Certification (600/600)
+CodeSignalCodeSignal
+Issued Nov 2024Issued Nov 2024
+Python (Programming Language)
+
+CodeSignal.pngCodeSignal.png
+MLH Fellowship logo
+MLH Fellowship Web3 Engineering
+MLH Fellowship Web3 Engineering
+MLH FellowshipMLH Fellowship
+Issued Sep 2023Issued Sep 2023
+Show all 5 licenses & certifications
+VolunteeringVolunteering
+Ripple logo
+XRP Ledger Campus Ambassador
+XRP Ledger Campus Ambassador
+RippleRipple
+Aug 2023 - Present · 1 yr 10 mosAug 2023 - Present · 1 yr 10 mos
+Consensys logo
+Ambassador
+Ambassador
+ConsensysConsensys
+Aug 2023 - Present · 1 yr 10 mosAug 2023 - Present · 1 yr 10 mos
+The Product Pro Ambassador Program is a specialized accelerator designed to support individual professionals in web3 who aspire to build and support community growth through code, content, and education. The program has been designed to foster adoption of web3 products like MetaMask, Linea, and Infura, among other products by creating an organic community of developers building on Ethereum and advocating for decentralization.The Product Pro Ambassador Program is a specialized accelerator designed to support individual professionals in web3 who aspire to build and support community growth through code, content, and education. The program has been designed to foster adoption of web3 products like MetaMask, Linea, and Infura, among other products by creating an organic community of developers building on Ethereum and advocating for decentralization.
+Show all 6 volunteer experiences
+SkillsSkills
+Python (Programming Language)
+Python (Programming Language)
+Company logo
+4 experiences across Super and 3 other companies4 experiences across Super and 3 other companies
+Company logo
+General Coding Framework Certification (600/600)General Coding Framework Certification (600/600)
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+Show all 5 details
+JavaScript
+JavaScript
+Company logo
+4 experiences across Somm and 3 other companies4 experiences across Somm and 3 other companies
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+Nicholas Chen profile picture
+Endorsed by 1 person in the last 6 monthsEndorsed by 1 person in the last 6 months
+Show all 4 details
+Show all 40 skills
+RecommendationsRecommendations
+
+ReceivedReceived
+GivenGiven
+Martin Philipp
+Martin Philipp
+Martin Philipp
+· 1stFirst degree connection
+Director, BDC Capital OperationsDirector, BDC Capital Operations
+September 8, 2023, Martin managed William directlySeptember 8, 2023, Martin managed William directly
+I was William’s manager for his Summer 2023 internship in the BDC Capital Operations & Strategy team. William delivered outstanding results, working 20+ hours per week on top of a full-time curriculum at Waterloo University.
+
+William’s diligence, strong work ethic, attention to detail, and positivity made him a valuable asset to our team. He constantly leveraged his Computer Science and Finance knowledge to generate unique insights and problem-solving approaches. I was particularly impressed by William’s curiosity and ability to seize opportunities at work and externally through networking events, conferences, and hackathons. William’s strong network also helped us source our two fantastic new interns without having to post. 
+
+William earns my recommendation as an extraordinary talent that any team would be lucky to have.I was William’s manager for his Summer 2023 internship in the BDC Capital Operations & Strategy team. William delivered outstanding results, working 20+ hours per week on top of a full-time curriculum at Waterloo University. William’s diligence, strong work ethic, attention to detail, and positivity made him a valuable asset to our team. He constantly leveraged his Computer Science and Finance knowledge to generate unique insights and problem-solving approaches. I was particularly impressed by William’s curiosity and ability to seize opportunities at work and externally through networking events, conferences, and hackathons. William’s strong network also helped us source our two fantastic new interns without having to post. William earns my recommendation as an extraordinary talent that any team would be lucky to have.
+David Kong
+David Kong
+David Kong
+· 1stFirst degree connection
+Founder at Somm.ai, Glasvin | Forbes 30 Under 30Founder at Somm.ai, Glasvin | Forbes 30 Under 30
+April 15, 2023, David managed William directlyApril 15, 2023, David managed William directly
+I was William’s direct manager during his Winter 2022 term at Somm.ai. He demonstrated exceptional skills in various technologies such as Python, React, ElasticSearch, and Javascript, which greatly contributed to the success of projects ranging from data scraping, database querying, and full-stack web development. I particularly appreciated William’s consistent positive attitude, insatiable curiosity, and passion for bringing value to our users as well as his dependability, work ethic, and resourcefulness.
+
+William is a true team player whose energy and positivity always manages to bring out the best out of other employees. William would be a valuable asset to any team.I was William’s direct manager during his Winter 2022 term at Somm.ai. He demonstrated exceptional skills in various technologies such as Python, React, ElasticSearch, and Javascript, which greatly contributed to the success of projects ranging from data scraping, database querying, and full-stack web development. I particularly appreciated William’s consistent positive attitude, insatiable curiosity, and passion for bringing value to our users as well as his dependability, work ethic, and resourcefulness. William is a true team player whose energy and positivity always manages to bring out the best out of other employees. William would be a valuable asset to any team.
+Show all 4 received
+Honors & awardsHonors & awards
+Winner - ETHDenver 2024 ($17,500 CAD Prize, 21000+ attendees)
+Winner - ETHDenver 2024 ($17,500 CAD Prize, 21000+ attendees)
+Issued by ETHDenver · Mar 2024Issued by ETHDenver · Mar 2024
+🥇 Won a combined $17,500 CAD with Xavier D'Mello at ETHDenver, the largest and longest-running Ethereum event in the world!🥇 Won a combined $17,500 CAD with Xavier D'Mello at ETHDenver, the largest and longest-running Ethereum event in the world!
+
+"A push-up to $6.5K USD": William Wang wins big at ETHDenver’s 2024 Hackathon | Cheriton School of Computer Science"A push-up to $6.5K USD": William Wang wins big at ETHDenver’s 2024 Hackathon | Cheriton School of Computer Science
+Out of 20,000 attendees from 120 countries this year, we are overjoyed to have won both 1st in main track judging as well as 1st in community voting with 978 votes!Out of 20,000 attendees from 120 countries this year, we are overjoyed to have won both 1st in main track judging as well as 1st in community voting with 978 votes!
+3 First Prizes, 4 Sponsor Prizes ($10,000 CAD in Prizes, 650+ hackers)
+3 First Prizes, 4 Sponsor Prizes ($10,000 CAD in Prizes, 650+ hackers)
+Issued by ETHGlobal Waterloo 2023 · Jun 2023Issued by ETHGlobal Waterloo 2023 · Jun 2023
+🏆 3 First Prizes, 4 Sponsor Prizes - ETHWaterloo 2023 ($10K CAD Prize, 650+ hackers) - June 2023🏆 3 First Prizes, 4 Sponsor Prizes - ETHWaterloo 2023 ($10K CAD Prize, 650+ hackers) - June 2023
+
+🥇 Super excited to announce that my team won $10,000 CAD (3 First Place Prizes + 4 Sponsor Prizes) at ETHGlobal Waterloo - Canada's largest blockchain hackathon!🥇 Super excited to announce that my team won $10,000 CAD (3 First Place Prizes + 4 Sponsor Prizes) at ETHGlobal Waterloo - Canada's largest blockchain hackathon!
+I teamed up with Benjamin Liang and Andrew Liang to build our project Goose.ai with the help of the sponsors Highlight.xyz, Polygon Labs, Filecoin Foundation, Worldcoin, QuickNode ⚡, UMA , The Graph, Gnosis , Nouns, and MetaMask who aided us in integrating with their tech stack!I teamed up with Benjamin Liang and Andrew Liang to build our project Goose.ai with the help of the sponsors Highlight.xyz, Polygon Labs, Filecoin Foundation, Worldcoin, QuickNode ⚡, UMA , The Graph, Gnosis , Nouns, and MetaMask who aided us in integrating with their tech stack!
+Show all 16 honors & awards
+LanguagesLanguages
+English
+English
+Native or bilingual proficiencyNative or bilingual proficiency
+French
+French
+Professional working proficiencyProfessional working proficiency
+Show all 3 languages
+InterestsInterests
+Top VoicesTop Voices
+CompaniesCompanies
+NewslettersNewsletters
+SchoolsSchools
+Silvina Moschini
+Silvina Moschini
+Silvina Moschini
+· 2ndSecond degree connection
+Entrepreneur Democratizing Wealth Creation and Opportunities Worldwide. Founder of Unicorn Hunters, Unicoin, and SheWorks!Entrepreneur Democratizing Wealth Creation and Opportunities Worldwide. Founder of Unicorn Hunters, Unicoin, and SheWorks!
+60,850 followers60,850 followers
+
+Following
+Peter Koerte
+Peter Koerte
+Peter Koerte
+· 1stFirst degree connection
+Member of the Managing Board, Chief Technology Officer and Chief Strategy Officer at SiemensMember of the Managing Board, Chief Technology Officer and Chief Strategy Officer at Siemens
+33,398 followers33,398 followers
+
+Following
+Show all Top Voices
+Profile language
+English
+
+Public profile & URL
+www.linkedin.com/in/heywilliamwang
+
+
+Who your viewers also viewedWho your viewers also viewed
+ Private to you Private to you
+
+Blaire Pang
+Blaire Pang
+Blaire Pang
+· 1stFirst degree connection
+SWE @ Meta | SWE Intern @ Citadel, Coinbase | CS + DS + Math @UMichSWE @ Meta | SWE Intern @ Citadel, Coinbase | CS + DS + Math @UMich
+Message
+Thomas Huy Nguyen
+Thomas Huy Nguyen
+Thomas Huy Nguyen
+· 2ndSecond degree connection
+Incoming @ Meta | CS @ McGillIncoming @ Meta | CS @ McGill
+
+Connect
+Unlock the full list
+See who else is often viewed alongside you
+
+Try Premium for $0
+1-month free trial. Cancel whenever. We’ll remind you 7 days before your trial ends.
+
+People you may knowPeople you may know
+From your companyFrom your company
+
+Mithil Srungarapu
+Mithil Srungarapu
+Mithil Srungarapu
+CS @ UC Berkeley | Incoming @ Meta | Research @ BAIRCS @ UC Berkeley | Incoming @ Meta | Research @ BAIR
+
+Connect
+Ananya Garg
+Ananya Garg
+Ananya Garg
+SWE Intern at Meta | Kleiner Perkins FellowSWE Intern at Meta | Kleiner Perkins Fellow
+
+Connect
+Xiaohua Li
+Xiaohua Li
+Xiaohua Li
+Software Engineer Intern @ Meta | Full-Stack Data Scientist & Machine Learning Engineer | NEU | HKUSTSoftware Engineer Intern @ Meta | Full-Stack Data Scientist & Machine Learning Engineer | NEU | HKUST
+
+Connect
+Chingiz T.
+Chingiz T.
+Chingiz T.
+SWE Intern @ Meta | CS @ LehighSWE Intern @ Meta | CS @ Lehigh
+
+Connect
+James Zhong
+James Zhong
+James Zhong
+Incoming @ Meta | CS @ UC BerkeleyIncoming @ Meta | CS @ UC Berkeley
+
+Connect
+Show all
+You might likeYou might like
+Pages for youPages for you
+
+Singapore University of Technology and Design (SUTD) logo
+Singapore University of Technology and Design (SUTD)
+Singapore University of Technology and Design (SUTD)
+Higher EducationHigher Education
+70,830 followers70,830 followers
+
+
+
+12 connections follow this page
+
+Follow
+AI at Meta logo
+AI at Meta
+AI at Meta
+Research ServicesResearch Services
+962,438 followers962,438 followers
+
+
+
+914 connections follow this page
+
+Follow
+Show all
+
+William Wang
+MessagingYou are on the messaging overlay. Press enter to open the list of conversations.
+
+Compose message
+You are on the messaging overlay. Press enter to open the list of conversations.
+Page inboxes
+Click to see affiliated inboxes
+
+Interview Behavioral Questions & Answers
+
+
+
+Questions to ask:
+Favorite and challenging aspect of your role at ?
+What advice would you give yourself when you were graduating university? That’s the situation I am in right now so would love to hear any wisdom or insights you might have reflecting back
+
+Tell me a little about yourself?
+
+Hi, my name is William. I am a final year Computer Science student at the University of Waterloo in Canada. Last year, I interned for Bloomberg in New York where I built internal tools with GenAI features to help lawyers draft contracts more efficiently. I am also joining Meta this Summer to work on their AI Reels Recommendation team.
+
+In terms of interests, I love musicals, karaoke, strategy games, and hackathons! I have won 70 so far and over 180,000 in prizes.
+
+Tell me about a time you failed or made a mistake?
+
+For sure! I made a small but very memorable mistake when I was in Barcelona earlier this month.
+
+So I was in Barcelona on the first Sunday of April, which turns out to be Free Museum Day in Barcelona.
+
+So I checked the closing times of each museum I wanted to visit that were free, starting from the ones that closed the earliest at 3pm all the way to 8pm.
+
+Near the end of the day when I was checking out the museum of music in Barcelona, I arrived at 6:32pm and was excited to check out the museum for 25 minutes.
+
+However, the receptionist told me the museum stops issuing tickets 30 min before closing.
+
+So I ended up wasting 30 min on public transit to the museum and another 30 min to the next museum.
+
+Two Lessons:
+1. 30s of research or preparation can save hours down the line
+
+In this case, if I just took the 30s to check the closing time on their official website, I would have known to come just 5 min earlier and it would have been fine. And saved the 30 min in transit.
+
+This is also relevant in aspects like software engineering, where if you invest a few hours into learning a new tool such as Git or Cursor, it can save you hundreds of hours down the line.
+
+2. When one door closes, another opens
+
+Even though I missed out the music museum, I had 30 more minutes to spend at the museum of natural sciences of Barcelona, which was massive and I only got to see all the exhibits thanks to the extra time I had. So it ended up working out.
+
+So to summarize, I missed the chance to see a museum for free in Barcelona due to not checking the closing time on their website. But I learned the lessons of the importance of research / preparation and how when one door closes, another one opens.
+
+3. DE Shaw Interview Questions
+Q1. Can you walk us through your resume, highlighting your experience relevant to the role
+you are applying for at D.E. Shaw? (Background &amp; Experience)
+How to Answer:
+When answering this question, focus on your experiences that align with the job description.
+Highlight your technical skills, any relevant projects, and experiences that show you possess
+the qualities that D.E. Shaw looks for a candidate. Be succinct and structure your answer
+in a way that tells a coherent story of your professional journey.
+
+I believe my previous experience at Bloomberg is very relevant to the current role because I leveraged GenAI to help  the legal at Bloomberg work more efficiently. For instance, when lawyers at Bloomberg draft contracts, they have to select from a list of verified legal clauses that they use. So these legal clauses have been vetted by lawyers to ensure they will hold up in case they go to court. However, there are hundreds of these legal clauses spread out across over 30 playbooks (grouping of clauses), each containing dozens. 
+
+
+What lawyers used to do was have all of these playbooks open as Word Documents, and manually scroll through to find the one that they want, which is extremely inefficient. What I ended up creating as a subcomponent of my intern project at Bloomberg was a side panel that allows you to type in what legal clause you are looking for, e.g. a clause that allows for early termination of the contract, and leveraging Bloomberg’s own LLM, it will automatically surface the most similar clauses ranked by a similarity score. 
+
+So before searching for clauses to add might take minutes, now it just takes one click and a few seconds.
+
+
+
+Q2. Why do you want to work at D.E. Shaw, and what interests you about our company?
+(Cultural Fit &amp; Motivation)
+How to Answer:
+Your answer should reflect your knowledge of the company and its culture, as well as how
+your personal values and career goals align with the organization. Mention specific aspects
+of the company that appeal to you, such as its reputation for innovation, its commitment to
+teamwork, or the opportunity to work on challenging projects.
+
+From what I have read about DE Shaw, I know it is a very collaborative environment filled with extremely talented and hardworking and kind individuals. I feel this is the type of environment where I can learn and grow the most. Furthermore, the role I am applying for at DE Shaw involves GenAI in a financial context which is perfect for my background, because I have done Software Engineering internships at FinTech startups as well as big financial institutions like Bloomberg, and also technical operation roles at Canada’s largest VC firm.
+
+Q3. How do you approach problem-solving, and can you provide an example of a
+challenging problem you’ve solved? (Problem-Solving Skills)
+How to Answer:
+Demonstrate your problem-solving methodology with a structured approach, such as
+defining the problem, analyzing the causes, exploring solutions, implementing a strategy,
+and reviewing the results. Provide a specific example that shows your ability to tackle
+complex issues effectively.
+
+I approach problem-solving by breaking down problems into manageable subtasks, and completing them one by one to achieve something extraordinary. One example is my hackathon project for Microsoft’s GenAI hackathon, which I ended winning 2nd in out of 1200 participants, and I did it completely solo. I wanted to build Ironman’s JARVIS for this hackathon, so an AI agent that is both multimodal in terms of its input and output. 
+
+For example, if you hold a solar eclipse glasses and ask what it is, the AI will use both your voice and video feed as input, and output both a spoken response as well as a 3D visualization of a solar eclipse with the Earth, moon and sun.
+
+This was a massive undertaking especially for one person, so I had to subdivide this project, first into input, processing, and output. Then you have to subdivide even further. For instance, we have voice input and video input. Then within voice input, we have to recognize when the user starts speaking, when the user stops speaking, and convert that audio snippet into text. 
+
+By breaking up this massive project into small manageable tasks, I was able to build out a JARVIS AI agent that leverages the Meta Quest 3 and Microsoft Azure’s GPT models to take in multimodal input (speech and video) and respond with multimodal output (speech and 3d visualizations).
+
+The result was not just being the only solo team to win in the Top 3, but I was also paid by Microsoft twice to showcase my project to the Azure AI team and answer questions about my experience using Azure AI as a developer.
+
+Q4. Describe a time when you had to work with a difficult team member and how you handled the situation. (Teamwork &amp; Interpersonal Skills)
+How to Answer:
+Recall a situation where you demonstrated empathy, communication skills, and the ability to
+navigate interpersonal conflicts. Your answer should convey your capacity to maintain a
+professional demeanor and work collaboratively, even in challenging circumstances.
+
+One instance of dealing with a difficult team member was at Bloomberg when I was trying to get my web app deployed organization-wide at Bloomberg so the lawyers in our Beta testing group could play around with my app. But to do that, the app has to be reviewed by the Compliance team and approved.
+
+I submitted a request for it to be reviewed. A reviewer was automatically assigned and despite me sending multiple follow up messages, a week passed without any response. Now this was nearing the end of my internship and my manager wanted to have something to show for my efforts so she was also asking me why the review hasn’t been completed.
+
+Thus what I ended up doing was creating a group chat with me, my Manager, and the reviewer to explain the situation, how it is blocker for me making progress since we needed our lawyer team to test the app to get feedback and iterate. Furthermore, I requested a video call with the reviewer so I can show him the flow of my application and answer any questions he had on the spot instead of doing slow back-and-forths through the ticketing application. 
+
+As a result, we ended up finishing the review process in a week and a half instead of the usual month that my teammates were used to, and my manager was very pleased that I was proactive in taking charging and navigating this process.
+
+
+
+Q5. Explain the concept of a ‘P-Value’ in statistics and its relevance in data analysis.
+(Technical Knowledge – Statistics)
+
+Likelihood of seeing this particular set of observations if the null hypothesis is true.
+
+Q6. How do you ensure the quality and accuracy of your work when dealing with large
+datasets? (Data Analysis &amp; Attention to Detail)
+
+Q7. What programming languages are you proficient in, and which do you prefer for data analysis? (Technical Knowledge – Programming)
+
+I have used R in my statistics classes but I am most familiar with Python for data analysis. I have also used it in my Machine Learning course to train models that predict traits about a plant such as its height, temperature and precipitation data, as well as soil data like its PH value and sand content using a picture of it. We also had to submit our results to Kaggle.
+
+Q8. Discuss a project where you applied machine learning techniques, and what was the outcome? (Technical Knowledge – Machine Learning)
+How to Answer:
+Outline the project’s objective, the machine learning techniques used, any challenges faced,
+and the results achieved.
+
+During my previous term, I took a course on Machine Learning. Our final project for this course was leveraging our Machine Learning knowledge to analyze a picture of a plant to predict its numerical traits such as its height, temperature and precipitation data, as well as the plant’s soil data like its PH value and sand content. One challenge I faced was that training one model to predict all of the traits was extremely inaccurate. As a result, I ended up training a separate model for each trait that takes in the plant’s image as input, then returns just one numerical prediction for that specific trait. This ended up being a lot more accurate, and I ended up receiving a modest 80% for this assignment when the class average was less than 65%. My final grade in the course was a 90% which I am very happy about since I was both job hunting and going to hackathons during the same time.
+
+Q9. What experience do you have with financial modeling, and what tools do you use for it? (Technical Knowledge – Finance)
+
+I learned some basic financial modeling at my VC internships, but never did it extensively in practice. For instance, I know how to perform DCFs, where you discount all future cash flows of a company to get its net present value. I also learned about comparables and precedent transactions, where you basically look at similar public companies or private companies that were sold, and look at ratios such as P/E or P/S to determine a possible valuation.
+
+Q10. How do you stay current with the latest developments in the field of quantitative
+finance? (Continuous Learning &amp; Industry Knowledge)
+
+I am always going to hackathons, and there you get to see hundreds of projects leveraging the latest technologies which if I find intriguing, I learn it and integrate into my toolkit for the future.
+
+Q11. Describe your experience with risk management and how you would mitigate risks in a portfolio. (Risk Management)
+How to Answer:
+When tackling this question, be sure to highlight your understanding of various risk
+management techniques, tools, and strategies. Present your answer by explaining specific
+experiences where you have implemented risk management measures. You can talk about
+your familiarity with financial models, portfolio diversification, hedge strategies, and use of
+financial instruments to mitigate risks.
+
+One way to mitigate risks in a portfolio is to hedge. So a simple example would be to say you are long 100 AAPL stock, currently worth $200. What if one day it drops to $100? To mitigate this situation, you can buy Puts, giving you the option to sell AAPL at $200 regardless of what happens to the stock price.
+
+Q12. Can you explain what a derivative is and give an example of where it might be used? (Technical Knowledge – Financial Instruments)
+A derivative is a financial instrument whose value is derived from the performance of an
+underlying asset, index, or interest rate. They are primarily used for hedging risks,
+speculating on future price movements, or gaining access to otherwise inaccessible markets
+or assets.
+
+The derivative I am most familiar with are options, which are a financial instrument whose value is derived from the performance of an underlying asset, a stock.
+
+So for instance, if I buy a call option on AAPL, the call options price is determined by the price of AAPL stock. If AAPL stock goes up, my call option would likely increase (but not always) in value.
+
+Q13. How would you handle a situation where you are given a tight deadline for a complex analysis? (Time Management &amp; Stress Handling)
+How to Answer:
+
+In responding to this question, discuss your ability to prioritize tasks, manage time
+effectively, and maintain quality work under pressure. Explain your approach to breaking
+down complex tasks into manageable parts and your experience in collaborating with others
+to meet tight deadlines.
+
+What I will do is outline the subtasks associated with it. I will inform my superior of how long each subtask will take but also the potential that the task might take longer due to the tight deadline. Once the plan is reviewed and approved, I will begin work to tackle each task and also reach out for help if I hit blockers. 
+
+This ensures a systematic, efficient, and trackable way of delivering quality work under tight deadlines.
+
+Q14. Provide an example of a time when you had to present complex data to a non-technical audience. How did you ensure clarity and comprehension? (Communication Skills)
+How to Answer:
+You should answer this question by giving a specific instance where you successfully
+translated complex information to a lay audience. Detail your approach to making the data
+digestible, such as simplifying terminology, using visual aids, and checking for
+Understanding.
+
+A lot of visual aids, explaining in simple to understand terms. Live walkthrough for how to use my application for the lawyers. Instead of focusing on the technicals and features, focus on the value for the non-technical person. E.g. instead of we query an AI to find similar clauses, rather you can enter in what clause you want and the panel lists the most similar ones.
+
+Q15. In your opinion, what are the key traits of a successful trader, and do you possess these traits? (Self-Assessment &amp; Trade Skills)
+How to Answer:
+Reflect on the personal qualities and professional skills that enable a trader to perform well
+in the fast-paced and often high-stress trading environment. Assess how you exemplify
+these traits based on your past experiences and successes.
+
+Q16. Can you discuss a time when you identified a new opportunity or inefficiency in the
+market? (Innovation &amp; Market Understanding)
+How to Answer
+When answering this question, focus on demonstrating your analytical skills, market
+knowledge, and innovation capabilities. Be specific about the opportunity or inefficiency you
+identified, explain the approach you took to analyze the situation, and describe the steps you
+took or would take to capitalize on the opportunity or rectify the inefficiency. Employers are
+looking for evidence that you can identify and act on market signals in a way that benefits
+the company.
+
+Q17. What is your understanding of algorithmic trading, and have you ever developed or
+improved an algorithm? (Technical Knowledge – Algorithmic Trading)
+Algorithmic trading is the process of using computer programs to execute trades according
+to pre-defined criteria, such as timing, price, and volume, with minimal human intervention.
+Algorithms are designed to make trading more efficient and to capitalize on market
+opportunities faster than human traders could.
+
+Q18. How would you approach building a diversified investment portfolio? (Investment
+Strategy)
+
+Q19. What methods do you use to assess and manage the performance of a trading
+Strategy?
+
+
+Q20. Explain a scenario where you used data visualization to influence a business decision.
+(Data Visualization &amp; Decision Making)
+
+Q21. How do you prioritize tasks when working on multiple projects simultaneously? (Project Management &amp; Prioritization)
+How to Answer:
+When answering this question, it helps to demonstrate your ability to manage time
+effectively, use prioritization frameworks, and communicate with stakeholders. Mention specific tools or methods you use, like the Eisenhower Matrix, Agile methodologies, or any
+project management software.
+
+I leverage the Agile method to deliver quality work consistently and verifiably. My team at Bloomberg leveraged Agile practices to ensure work is being done while constantly integrating customer feedback and collaboration with our team members.
+
+
+
+
+Q22. Describe your experience with backtesting trading strategies and the tools you use for it. (Technical Knowledge – Backtesting)
+
+I haven’t done backtesting before but I 
+
+Q23. Can you give an example of how you have contributed to a team project and what role you played? (Teamwork &amp; Contribution)
+How to Answer:
+Your answer should include a specific example that showcases your ability to work
+collaboratively, take the initiative, and contribute to a group effort. Be clear about the role you
+played and the impact your contribution had on the project’s outcome.
+
+I can talk about my experience at Start Hack, Europe’s largest entrepreneurial hackathon in Zurich, Switzerland. 
+
+I was the most experienced member of the team. So I helped provide a lot of insights into the right tool to use, such as Vercel v0 for rapid prototyping, and React.js and Next.js for rapid deployment.
+
+Also I was the most experienced when it came to pitching, so I was responsible for starting off our pitch to engage the audience, and passing it off to my teammates to run through the demo and conclusion.
+
+
+
+Q24. What strategies do you employ to handle high-pressure situations in the workplace, particularly during market volatility? (Stress Management)
+
+I remain logical by recognizing that emotions such as pressure are not directives. I take in emotions of feeling pressure as data points instead, but I don’t act on it. By recognizing the emotional impacts of high-pressure situations, I am better able to navigate it and make informed logical decisions and perform quality work. This is something I have perfected from my experiences at hackathons where you are forced to deliver an idea, product leveraging new technologies, demo, pitch all from scratch within 36 hours. 
+
+Q25. How do you evaluate the ethical implications of investment decisions, and can you provide an example of how you have navigated an ethical dilemma? (Ethics &amp; Decision Making)
+How to Answer:
+Discuss your approach to ethical decision-making, emphasizing the importance of integrity,
+transparency, and compliance with both legal standards and company policies. Share a real-
+life example where you faced an ethical challenge and how you resolved it.
+
+

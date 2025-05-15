@@ -1,0 +1,240 @@
+Business: Equity Quantitative Research (EQR)
+Title: Quantitative Developer
+Location: NY
+EQR Quantitative Developer
+About Citadel
+Citadel is one of the world’s leading alternative investment managers. For over 30 years, Citadel has
+cultivated a culture of learning and collaboration among some of the most talented and accomplished
+investment professionals, researchers, and engineers in the world. Our colleagues are empowered to test
+their ideas and develop commercial solutions that accelerate their growth and drive real impact.
+About Equity Quantitative Research
+Equity Quantitative Research (EQR) sits at the intersection of fundamental investment approach and
+quantitative rigor and discipline. Teams of quantitative researchers and developers work together to build
+and scale one of the largest equities portfolios in the market by optimizing various aspects of the
+investment, risk management, portfolio construction, and trade execution lifecycle. EQR’s teams are small
+and highly collaborative – each member makes meaningful contributions to the research agenda and
+direction and has visible impact in Citadel’s investments.
+Technology is at the core of the Equity Quant Research business. Embedded within EQR, the Engineering
+team builds the tools and platforms that enable and drive our quantitative research. By building analysis
+tools into a common platform, we empower EQR to work more effectively, easily share research and
+collaborate on ideas. In addition to providing shared frameworks, the team makes ideas and models
+production-ready and scalable so they can be applied in Citadel’s systematic trading environment.
+Engineering in EQR is highly collaborative, and we are looking for people who can work effectively in small,
+close-knit teams.
+Key Responsibilities
+We are looking for engineers who can work directly with our research teams to enable research systems
+and productivity across the entire EQR stack. Your impact could include:
+• Building a unified system that allows EQR’s researchers to access and look at data, and to build,
+fit and back test models in production-ready and simulation environments
+• Working directly with the researchers and traders to identify pain points to resolve and new
+functionality required to support modeling efforts
+• Building products and frameworks to provide insights into our investment process and
+performance (curated API’s, visualizations)
+• Providing a coding environment and a variety of data and platform services which allows for a
+substantial impact on efficiency, the ability to share and collaborate on research, and ultimately
+improve time-to-market of business-critical quantitative analytics
+Requirements
+• BS or MS in a relevant and highly technical field (computer science, math, physics, etc.)
+• 6+ years software development experience, strong experience in building high quality software
+in Python
+• Strong interest in the research process and understanding business needs
+• Ability to own end to end engineering processes
+
+EQR PREP FOR RECRUITER CALL
+This will be a call with one of the recruiters and it will be more behavioral, but I have put together some prep that I hope will be
+useful.
+Things to know:
+• EQR – one of the top performing teams within Citadel. Part of Citadel's Equities but not listed on their main website for
+confidentiality as it is their competitive edge. It aims to address the challenges in fundamental equities by adopting a
+quantitative and systematic approach.
+• Initially a mini start-up quant fund, has become Citadel's second most profitable business unit, surpassing older business
+units due to its aggressive growth. The team is made up of 150 individuals with about 75 in engineering and 75 in research
+roles.
+• Given their success they are looking to expand. They have 20+ engineering headcount, so they have adopted a team
+matching based approach but the JD attached includes what they are looking for in general. (while it says QD, the roles are
+engineering heavy positions, but with business exposure and that require candidates with an analytical mindset who can
+connect the dots).
+In this call they will cover:
+1) Your motivations to move & interest in Citadel / finance and EQR. I have attached a generic jd but again, keep in mind there
+is multiple headcount within the group so there are different roles you can be considered for.
+2) Your projects , what your contribution has been (they have passed on candidates who couldn’t really talk in detail about
+things on their resume or who did not really have a commercial mindset/ didn’t understand the downstream & impact of
+their work)
+Below I have summarized the notes from our catch up with them, which hopefully will help you frame your answers and give you a
+bit of insight into which qualities they will be looking for!
+They have realized that the candidates that do well throughout the process and on the job, are the ones that showcase economic
+intuition and commercial awareness. What does this mean?
+o Candidates that operate in context driven problem solving – focusing on business needs vs just focusing on deep technical
+questions. Candidates that understand the context behind their projects and how their work fits into the larger business
+strategy.
+o They look for candidates who can articulate not just the technical aspects but also the economic and business rationale
+behind their projects.
+o If someone is too focused on solving performance and optimization problems, their desire is to solve a technical problem
+they might not be the right fit
+Key Qualities to Showcase
+o Economic Intuition: Demonstrate an understanding of how your work fits into market dynamics and business strategies.
+o Decisiveness and Pace: Be prepared to show that you can make informed decisions quickly and work effectively in fast-
+paced environments. (some candidates come from companies / industries that are too slow paced and that doesn’t work)
+o Commercial Awareness: Candidates should have a clear understanding of the commercial aspects of their work.
+o End User and Impact: They should understand who the end user is and how their work impacts the broader business
+o Visibility and Communication: Assess their ability to communicate effectively and demonstrate visibility within their
+projects. Talk in a concise way. Communication can be looked at in 2 ways:
+o Can the candidate take a methodical approach to how he is answering the questions
+o Technical communication - can the candidate explain technical concepts digestible by someone that is not technical
+Example questions they might ask (try to answer them keeping the points above in mind)
+o Current Work: "Can you tell me about your current work and its impact on the business?"
+o Problem Solving: "What types of problems do you want to solve?"
+o Quantification: "Have you quantified your work? How do you measure its success?"
+o Layman's Terms: "Can you explain your work in simple terms? Avoid overly technical jargon."
+o Business Impact: "Why does your current work matter to the business?"
+o Project Understanding: "Can you describe your most impactful project and its significance?"
+o Business Model: "Can you explain the nature of your business and how the company makes money?"
+o Broader Roadmap: "How does your current project fit into the broader roadmap of the company?"
+o Core Problems: "Can you connect the dots between your work and the core problems the business is addressing?"
+o Product Understanding: "What are you currently building, and who is the end user?"
+o Business Impact: "How does your work impact the broader business?"
+o Importance of Work: "Why is your current work important to the business?"
+Example of feedback
+Good Feedback:
+o Motivation: Demonstrates strong motivation and a clear willingness to learn.
+o Enthusiasm: Provides enthusiastic and engaged responses.
+o Learning and Growth: Discusses how they picked up new topics and shows a clear understanding of their strengths and
+weaknesses.
+o Thought Process: Clearly outlines their thought process and the rationale behind their solutions.
+Bad Feedback:
+o Limited Impact: Worked on isolated pieces of code without understanding broader impact.
+o Lack of Awareness: Shows a lack of awareness about the purpose and end users of their work.
+o Narrow Focus: Focuses only on technical details without understanding the commercial or business aspects.
+o Customer Understanding: Lacks understanding of the customers and how their work serves them.
+
+EQR INTERVIEW PREPARATION GUIDE
+Comprehensive Overview: Behavioral & Technical Prep
+1. EQR Overview & Business Context
+What is EQR?
+EQR is one of Citadel's top-performing teams, operating as part of Citadel Equities but not publicly
+listed due to confidentiality and its competitive edge. It applies a quantitative and systematic approach
+to fundamental equities, setting it apart from traditional discretionary investing.
+• Started as a "mini startup" within Citadel and has become its second most profitable business
+unit.
+• Team consists of ~150 people: ~75 engineers & ~75 researchers.
+• Given its success, EQR is in aggressive expansion mode and hiring across engineering teams.
+• Roles within EQR are engineering-heavy but require strong analytical and business intuition—
+the ability to "connect the dots" between engineering and finance.
+What to Expect in the Recruiter Call
+This call will be more behavioral-focused but will assess both technical competence and business
+intuition.
+They will cover:
+1. Your motivation for moving to Citadel/EQR & your interest in finance.
+2. Your past projects, technical contributions, and commercial impact.
+What They Look for in Candidates
+The best-performing candidates showcase strong economic intuition and commercial awareness.
+Context-Driven Problem Solving – Understand the broader business needs, not just deep technical
+challenges.
+matters.
+adapt.
+managers?
+Ability to Articulate Business Rationale – Candidates should be able to explain why their work
+Commercial Awareness – How does your work impact revenue, efficiency, or decision-making?
+Decision-Making & Pace – Citadel moves fast. Show that you can make decisions quickly and
+Understanding the End User – Who benefits from your work? Traders, researchers, or portfolio
+Clear Communication – Explain complex technical ideas in a way that non-engineers can
+understand.
+Potential Behavioral Questions & Key Themes
+Question What They're Looking For
+"Tell me about your current work and its impact on
+the business."
+"What types of problems do you want to solve?" "Have you quantified your work? How do you
+measure its success?" "Can you explain your work in simple terms?" "Why does your current work matter to the
+business?" "Can you describe your most impactful project and
+its significance?"
+"What are you currently building, and who is the
+end user?"
+Can you connect your work to revenue, cost
+savings, or efficiency?
+Do you think beyond just technical challenges?
+Metrics, KPIs, and commercial outcomes matter.
+Avoid jargon; clarity is key.
+Show that you understand the big picture.
+Demonstrate your technical depth and business
+awareness.
+Show product awareness and customer impact.
+2. Technical Interview Topics
+Core Coding Topics
+Candidates should be comfortable with:
+• Python Syntax & Data Structures: Lists, Hash Tables, Tuples
+• Graph Algorithms: Connected Components, Best Friend Graphs, Network Flows
+• Efficient String Manipulation: Palindromic Substrings, Substring Searches
+• System Design & Scalability: Building fault-tolerant, high-availability systems
+A. System Design Questions
+1. Job Process API Design
+Scenario: Researchers submit a large number of computational jobs that need processing.
+Key Considerations:
+• API Design:
+o What endpoints do you expose? (/submit_job, /job_status/{id}, /cancel_job)
+o What parameters does a job submission require? (priority level, compute resources)
+• Job Prioritization:
+o How do you handle urgent vs. normal requests? (FIFO, weighted priority queue)
+• Concurrency & Queuing:
+o Do you implement a job queue or a task-scheduling system?
+o Use Kafka/RabbitMQ for buffering large job requests.
+• Scaling & Failure Handling:
+o Implement retry logic for failed jobs.
+o How do you recover from node failures? (Distributed job tracking)
+Follow-Up Questions:
+• What database would you use for tracking job submissions?
+• How do you prevent bottlenecks with simultaneous job requests?
+2. Batch Processing Pipeline
+Scenario: Users submit compute-heavy jobs, but you don’t know memory/CPU needs in advance.
+Key Considerations:
+• Dynamic Resource Allocation:
+o Kubernetes/AWS Lambda for auto-scaling based on job type.
+• Provisioning Containers:
+o How do you decide how much CPU/memory each job gets?
+o Track usage metrics (Prometheus, Grafana) and scale dynamically.
+• Tradeoffs & Challenges:
+o Some jobs are memory-intensive, others are CPU-heavy.
+o Prevent network bandwidth exhaustion by throttling requests.
+o Implement fair scheduling (e.g., round-robin, weighted allocation).
+Follow-Up Questions:
+• How do you prevent starvation of lower-priority jobs?
+• How do you handle jobs that exceed allocated resources?
+B. Business Case Problems
+1. Restaurant Review Ranking System
+Scenario: You operate a restaurant review site where users rate restaurants, but you need a better
+ranking algorithm.
+Key Considerations:
+• If ranking ≠ mean score, what alternative ranking models exist? (Bayesian Averaging, Wilson
+Score)
+• How do you enable researchers to experiment with ranking models?
+• Scaling to 1M+ restaurants – How do you make it fault-tolerant?
+Follow-Up Questions:
+• What data structures would you use to store reviews efficiently?
+• How do you detect and filter fake reviews?
+2. Spotify Royalty Analysis System
+Scenario: Spotify wants to rank users based on profitability (royalties paid vs. cost incurred).
+Key Considerations:
+• What metrics determine profitability? (Subscription revenue vs. royalties)
+• How do you process billions of song streams efficiently?
+• ETL Pipeline: How do you structure data aggregation?
+Follow-Up Questions:
+• How do you handle delayed or incorrect data updates?
+• How would your system adapt to new revenue streams like ads?
+C. Graph-Based Algorithm Challenges
+1. Palindromic Substrings
+Problem: Find all substrings that are palindromes.
+• Brute-force (O(n³)) – Check all substrings.
+• Optimized (O(n²)) – Expand-Around-Center or Dynamic Programming.
+2. Friendship Graph
+Problem: Given a friendship network, determine:
+• Connected components (friend groups) using BFS/DFS.
+• "Best friend" groups – detecting trios or cliques.
+3. Token Authentication System
+Problem: Build a system for authentication token expiration & renewal.
+• Efficient expiration tracking (priority queues, TTL indexes).
+• Handling renewals & late requests correctly.
+• Scalability for large-scale authentication.
+3. Final Notes on Communication & Strategy
+Show business intuition – Always tie technical solutions to commercial impact.
+Think about scale & efficiency – EQR operates on large datasets.
+Ask clarifying questions – Since there are no product managers, engineers drive priorities.
+Communicate clearly – Be methodical in structuring your responses.
