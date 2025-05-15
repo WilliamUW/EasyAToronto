@@ -1,1 +1,1 @@
-export const API_BASE_URL = 'https://easyaconsensustoronto.onrender.com'; 
+export const API_BASE_URL = 'https://easyatoronto.onrender.com'; 
