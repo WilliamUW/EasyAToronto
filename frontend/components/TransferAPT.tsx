@@ -91,7 +91,7 @@ export function TransferAPT({ recipient: initialRecipient, amount: initialAmount
 
   return (
     <div className="flex flex-col gap-6">
-      <h4 className="text-lg font-medium">APT balance: {aptBalance / Math.pow(10, 8)}</h4>
+      <h4 className="text-lg font-medium">APT balance: {aptBalance}</h4>
       Recipient <Input 
         disabled={!account || !!initialRecipient} 
         placeholder="0x1" 
