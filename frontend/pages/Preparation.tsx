@@ -8,6 +8,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 import { companyDescriptions } from "@/lib/companyDescriptions";
 import { getAllInterviewQuestions } from "@/view-functions/getAllInterviewQuestions";
+import { toast } from "sonner";
+import { useWallet } from "@aptos-labs/wallet-adapter-react";
 
 interface InterviewData {
   user_address: string;
@@ -23,6 +25,8 @@ interface QAPair {
   isRegenerating?: boolean;
 }
 
+const FREE_TIER_LIMIT = 50;
+
 export default function Preparation() {
   const [personalInfo, setPersonalInfo] = useState("");
   const [companyInfo, setCompanyInfo] = useState("");
@@ -34,6 +38,8 @@ export default function Preparation() {
   const [feedbackOpen, setFeedbackOpen] = useState<{ [key: number]: boolean }>({});
   const [customQuestion, setCustomQuestion] = useState("");
   const [isGeneratingCustom, setIsGeneratingCustom] = useState(false);
+  const [isPremium, setIsPremium] = useState(false);
+  const { account, signAndSubmitTransaction } = useWallet();
 
   // Get unique companies from questions
   const companies = useMemo(() => {
@@ -266,10 +272,63 @@ export default function Preparation() {
     }
   };
 
+  const handleUpgradeToPremium = async () => {
+    if (!account) {
+      toast.error("Please connect your wallet first");
+      return;
+    }
+
+    try {
+      // For now, we'll just simulate the upgrade
+      // TODO: Implement actual APT transfer once we have the correct transaction format
+      setIsPremium(true);
+      toast.success("Successfully upgraded to Premium!");
+    } catch (error) {
+      console.error("Error upgrading to premium:", error);
+      toast.error("Failed to upgrade to Premium");
+    }
+  };
+
+  const canGenerateMore = isPremium || !generatedAnswer || generatedAnswer.questions.length < FREE_TIER_LIMIT;
+
   return (
     <div className="container max-w-screen-lg mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-6">Interview Preparation</h1>
-      
+      <div className="mb-6 space-y-4">
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl font-bold">Interview Preparation</h1>
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-gray-500">
+              {generatedAnswer?.questions.length || 0}/{FREE_TIER_LIMIT} Questions
+            </span>
+            {!isPremium && (
+              <div className="h-2 w-32 bg-gray-200 rounded-full overflow-hidden">
+                <div 
+                  className="h-full bg-blue-500 transition-all duration-300"
+                  style={{ width: `${((generatedAnswer?.questions.length || 0) / FREE_TIER_LIMIT) * 100}%` }}
+                />
+              </div>
+            )}
+          </div>
+        </div>
+
+        {!isPremium && (
+          <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4 rounded-lg">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-semibold text-lg">Get Behavioral Buddy Premium</h3>
+                <p className="text-sm opacity-90">Unlock unlimited question generations</p>
+              </div>
+              <Button
+                onClick={handleUpgradeToPremium}
+                className="bg-white text-blue-600 hover:bg-gray-100"
+              >
+                Upgrade for 0.01 APT
+              </Button>
+            </div>
+          </div>
+        )}
+      </div>
+
       <div className="space-y-6">
         <div className="space-y-2">
           <label htmlFor="personal-info" className="text-sm font-medium">
@@ -368,7 +427,12 @@ export default function Preparation() {
         )}
         {generatedAnswer?.questions && !loading && (
           <div className="mt-6 space-y-4">
-            <h2 className="font-semibold mb-2">Generated Questions and Answers</h2>
+            <div className="flex items-center justify-between">
+              <h2 className="font-semibold">Generated Questions and Answers</h2>
+              <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
+                {generatedAnswer.questions.length} {generatedAnswer.questions.length === 1 ? 'Question' : 'Questions'}
+              </span>
+            </div>
             {generatedAnswer.questions.map((qa, index) => (
               <div key={index} className="p-4 border rounded bg-gray-50">
                 <h3 className="font-medium text-blue-600 mb-2">Q: {qa.question}</h3>
@@ -427,6 +491,18 @@ export default function Preparation() {
             )}
           </div>
         </div>
+
+        {!canGenerateMore && (
+          <div className="text-center p-4 bg-gray-50 rounded-lg">
+            <p className="text-gray-600 mb-2">You've reached the free tier limit of {FREE_TIER_LIMIT} questions</p>
+            <Button
+              onClick={handleUpgradeToPremium}
+              className="bg-blue-500 text-white hover:bg-blue-600"
+            >
+              Upgrade to Premium
+            </Button>
+          </div>
+        )}
       </div>
     </div>
   );
