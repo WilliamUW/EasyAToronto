@@ -17,6 +17,8 @@ app.use(express.json({ limit: '10mb' }));
 app.post("/api/generate-answer", async (req, res) => {
   const { prompt } = req.body;
 
+  console.log("Prompt:", prompt);
+
   const genAI = new GoogleGenerativeAI(API_KEY);
   const model = genAI.getGenerativeModel({ model: GEMINI_TEXT_MODEL });
 
@@ -64,6 +66,8 @@ app.post("/api/verify-interview-email", async (req, res) => {
 
   const genAI = new GoogleGenerativeAI(API_KEY);
   const model = genAI.getGenerativeModel({ model: GEMINI_IMAGE_MODEL });
+
+  console.log("Prompt with Image:", prompt);
 
   try {
     const result = await model.generateContent({
