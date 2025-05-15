@@ -16,14 +16,22 @@ interface InterviewData {
   timestamp: string;
 }
 
+interface QAPair {
+  question: string;
+  answer: string;
+  feedback?: string;
+  isRegenerating?: boolean;
+}
+
 export default function Preparation() {
   const [personalInfo, setPersonalInfo] = useState("");
   const [companyInfo, setCompanyInfo] = useState("");
   const [selectedCompany, setSelectedCompany] = useState("");
   const [loading, setLoading] = useState(false);
-  const [generatedAnswer, setGeneratedAnswer] = useState<{ questions: Array<{ question: string; answer: string }> } | null>(null);
+  const [generatedAnswer, setGeneratedAnswer] = useState<{ questions: QAPair[] } | null>(null);
   const [isOpen, setIsOpen] = useState(true);
   const [interviewQuestions, setInterviewQuestions] = useState<InterviewData[]>([]);
+  const [feedbackOpen, setFeedbackOpen] = useState<{ [key: number]: boolean }>({});
 
   // Get unique companies from questions
   const companies = useMemo(() => {
@@ -101,6 +109,94 @@ export default function Preparation() {
     setLoading(false);
   };
   
+  const handleRegenerateAnswer = async (index: number) => {
+    if (!generatedAnswer) return;
+    
+    const qa = generatedAnswer.questions[index];
+    const newGeneratedAnswer = { ...generatedAnswer };
+    newGeneratedAnswer.questions[index] = { ...qa, isRegenerating: true };
+    setGeneratedAnswer(newGeneratedAnswer);
+
+    try {
+      const prompt = `Personal Info: ${personalInfo}\nCompany Info: ${companyInfo}\nCompany: ${selectedCompany}\nQuestion: ${qa.question}\nPrevious Answer: ${qa.answer}\nFeedback: ${qa.feedback}\nGenerate a new answer for this question. Return ONLY a raw JSON object in the following format, without any markdown formatting or code blocks:
+{
+  "questions": [
+    {
+      "question": "${qa.question}",
+      "answer": "New answer text here"
+    }
+  ]
+}`;
+
+      const response = await fetch(`${API_BASE_URL}/api/generate-answer`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      
+      if (!data.answer) {
+        throw new Error('No answer received from API');
+      }
+
+      const cleanAnswer = data.answer
+        .replace(/^```json\n?/, '')
+        .replace(/```.*$/, '')
+        .trim();
+      
+      const firstBrace = cleanAnswer.indexOf('{');
+      const lastBrace = cleanAnswer.lastIndexOf('}');
+      if (firstBrace === -1 || lastBrace === -1) {
+        throw new Error('Invalid JSON response format');
+      }
+      const jsonString = cleanAnswer.slice(firstBrace, lastBrace + 1);
+      
+      const parsedAnswer = JSON.parse(jsonString);
+      if (!parsedAnswer.questions?.[0]?.answer) {
+        throw new Error('Invalid answer format in response');
+      }
+
+      const newAnswer = parsedAnswer.questions[0].answer;
+      
+      setGeneratedAnswer(prev => {
+        if (!prev) return null;
+        const updatedQuestions = [...prev.questions];
+        updatedQuestions[index] = {
+          ...qa,
+          answer: newAnswer,
+          isRegenerating: false
+        };
+        return { ...prev, questions: updatedQuestions };
+      });
+    } catch (error) {
+      console.error('Error regenerating answer:', error);
+      setGeneratedAnswer(prev => {
+        if (!prev) return null;
+        const updatedQuestions = [...prev.questions];
+        updatedQuestions[index] = {
+          ...qa,
+          isRegenerating: false
+        };
+        return { ...prev, questions: updatedQuestions };
+      });
+    }
+  };
+
+  const handleFeedbackChange = (index: number, feedback: string) => {
+    if (!generatedAnswer) return;
+    const newGeneratedAnswer = { ...generatedAnswer };
+    newGeneratedAnswer.questions[index] = {
+      ...newGeneratedAnswer.questions[index],
+      feedback
+    };
+    setGeneratedAnswer(newGeneratedAnswer);
+  };
+
   return (
     <div className="container max-w-screen-lg mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold mb-6">Interview Preparation</h1>
@@ -208,6 +304,32 @@ export default function Preparation() {
               <div key={index} className="p-4 border rounded bg-gray-50">
                 <h3 className="font-medium text-blue-600 mb-2">Q: {qa.question}</h3>
                 <p className="text-gray-700">A: {qa.answer}</p>
+                
+                <Collapsible
+                  open={feedbackOpen[index]}
+                  onOpenChange={(open) => setFeedbackOpen({ ...feedbackOpen, [index]: open })}
+                  className="mt-4"
+                >
+                  <CollapsibleTrigger className="flex items-center text-sm text-gray-500 hover:text-gray-700">
+                    <ChevronDown className={cn("h-4 w-4 mr-1 transition-transform", feedbackOpen[index] ? "transform rotate-180" : "")} />
+                    Provide Feedback
+                  </CollapsibleTrigger>
+                  <CollapsibleContent className="mt-2 space-y-2">
+                    <Textarea
+                      placeholder="Enter feedback for the AI (e.g., Focus more on xyz experience)"
+                      value={qa.feedback || ""}
+                      onChange={(e) => handleFeedbackChange(index, e.target.value)}
+                      className="min-h-[100px]"
+                    />
+                    <Button
+                      onClick={() => handleRegenerateAnswer(index)}
+                      disabled={qa.isRegenerating}
+                      className="w-full"
+                    >
+                      {qa.isRegenerating ? "Regenerating..." : "Regenerate Answer"}
+                    </Button>
+                  </CollapsibleContent>
+                </Collapsible>
               </div>
             ))}
           </div>
