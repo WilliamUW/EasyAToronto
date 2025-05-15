@@ -6,12 +6,13 @@ import { Header } from "@/components/Header";
 import { InfoPage } from "@/components/InfoPage";
 import { MessageBoard } from "@/components/MessageBoard";
 import Preparation from "@/pages/Preparation";
+import Rewards from "@/pages/Rewards";
 import { useState } from "react";
 import { useWallet } from "@aptos-labs/wallet-adapter-react";
 
 function App() {
   const { connected } = useWallet();
-  const [currentPage, setCurrentPage] = useState<"home" | "preparation" | "info">("home");
+  const [currentPage, setCurrentPage] = useState<"home" | "preparation" | "rewards" | "info">("home");
 
   const renderPage = () => {
     switch (currentPage) {
@@ -19,6 +20,8 @@ function App() {
         return <MessageBoard />;
       case "preparation":
         return <Preparation />;
+      case "rewards":
+        return <Rewards />;
       case "info":
         return <InfoPage />;
       default:
