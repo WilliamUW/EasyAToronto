@@ -4,6 +4,10 @@ Here’s your **refined README**, upgraded with storytelling flow, better alignm
 
 # 🤖 BehavioralBuddy | AI Interview Prep Meets Web3 on Aptos
 
+Canva Presentation: https://www.canva.com/design/DAGnbtfghew/DTlotkk8rRFhMaYIBRH7eA/edit?utm_content=DAGnbtfghew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+YouTube Demo: https://youtu.be/tWL4C_Ozhnw
+
 🎥 [YouTube Demo](https://youtu.be/tWL4C_Ozhnw)
 📊 [Pitch Deck](https://www.canva.com/design/DAGnbtfghew/DTlotkk8rRFhMaYIBRH7eA/edit?utm_content=DAGnbtfghew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
