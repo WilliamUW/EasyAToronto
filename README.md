@@ -9,6 +9,7 @@ That's why we built:
 
 YouTube Demo: https://youtu.be/tWL4C_Ozhnw
 
+Canva Presentation: https://www.canva.com/design/DAGnbtfghew/DTlotkk8rRFhMaYIBRH7eA/edit?utm_content=DAGnbtfghew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ---
 
