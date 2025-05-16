@@ -1,15 +1,15 @@
 # 🤖 BehavioralBuddy | AI Interview Prep Meets Web3 on Aptos
 
+Canva Presentation: https://www.canva.com/design/DAGnbtfghew/DTlotkk8rRFhMaYIBRH7eA/edit?utm_content=DAGnbtfghew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+YouTube Demo: https://youtu.be/tWL4C_Ozhnw
+
 **Tired of prepping for behavioral interviews? So are we.**
 You've got 50+ questions to prepare, and no clue what "good" even looks like.
 
 That's why we built:
 
 > 🎤 **BehavioralBuddy** – an AI-powered dApp that instantly generates polished answers to behavioral interview questions tailored to **you** and the **company** you're applying to.
-
-YouTube Demo: https://youtu.be/tWL4C_Ozhnw
-
-Canva Presentation: https://www.canva.com/design/DAGnbtfghew/DTlotkk8rRFhMaYIBRH7eA/edit?utm_content=DAGnbtfghew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ---
 
