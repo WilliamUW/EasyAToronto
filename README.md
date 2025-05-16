@@ -1,7 +1,3 @@
-Here’s your **refined README**, upgraded with storytelling flow, better alignment with your pitch script, and sharper structure for community/investor readability — while keeping it concise and punchy.
-
----
-
 # 🤖 BehavioralBuddy | AI Interview Prep Meets Web3 on Aptos
 
 Canva Presentation: https://www.canva.com/design/DAGnbtfghew/DTlotkk8rRFhMaYIBRH7eA/edit?utm_content=DAGnbtfghew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
@@ -118,7 +114,3 @@ with crowdsourced interview reviews, compensation data, job insights, and more.
 > Let's help everyone ace the interview — not just those who can afford to.
 >
 > **Thank you! 🙌😄**
-
----
-
-Let me know if you want the README in Markdown format or adapted for Devpost, GitHub, or a landing page.
