@@ -7,6 +7,9 @@ That's why we built:
 
 > 🎤 **BehavioralBuddy** – an AI-powered dApp that instantly generates polished answers to behavioral interview questions tailored to **you** and the **company** you're applying to.
 
+YouTube Demo: https://youtu.be/tWL4C_Ozhnw
+
+
 ---
 
 ## 🚀 2. How We Use Aptos
