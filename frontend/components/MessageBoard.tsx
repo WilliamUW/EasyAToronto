@@ -41,7 +41,7 @@ const PLACEHOLDER_USER_PROFILES = [
 export function MessageBoard() {
   const { account, signAndSubmitTransaction } = useWallet();
   const queryClient = useQueryClient();
-  const [companyName, setCompanyName] = useState<string>("");
+  const [, setCompanyName] = useState<string>("");
   const [interviewQuestion, setInterviewQuestion] = useState<string>("");
   const [activeTab, setActiveTab] = useState<"overview" | "questions" | "add" | "reviews" | "jobs" | "salaries" | "benefits" | "photos" | "diversity">("overview");
   const [selectedCompany, setSelectedCompany] = useState<any>(null);
