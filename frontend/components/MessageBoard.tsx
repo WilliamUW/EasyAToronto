@@ -147,7 +147,7 @@ export function MessageBoard() {
     }
   }, [companies]);
 
-  const onClickEarnBBTButton = async () => {
+  const onClickEarnBBTButton = async (companyName: string) => {
     if (!account || !companyName || !interviewQuestion) {
       return;
     }
@@ -455,7 +455,7 @@ export function MessageBoard() {
                                 setVerifyResponse(null);
                                 setVerified(false);
                                 try {
-                                  const prompt = `Is this an interview email from ${companyName}? Return Yes or No and provide a brief explanation.`;
+                                  const prompt = `Is this an interview email from ${selectedCompany.name}? Return Yes or No and provide a brief explanation.`;
                                   const res = await fetch(`${API_BASE_URL}/api/verify-interview-email`, {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
@@ -502,8 +502,7 @@ export function MessageBoard() {
                           <Button
                             disabled={!account || !interviewQuestion || !verified}
                             onClick={() => {
-                              setCompanyName(selectedCompany.name);
-                              onClickEarnBBTButton();
+                              onClickEarnBBTButton(selectedCompany.name);
                             }}
                             className="max-w-md bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
                           >
